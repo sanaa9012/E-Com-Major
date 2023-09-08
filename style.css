@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;600&family=Raleway:ital,wght@1,100&family=Rampart+One&display=swap");
+
+body {
+  /* font-family: "Raleway", sans-serif;
+   */
+  padding: 0;
+  margin: 0;
+}
+#header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.navbar {
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e5d3b3;
+  position: sticky;
+  width: 100%;
+  box-shadow: 0px 5px 15px;
+  top: 0;
+  z-index: 1000;
+}
+.NavItem {
+  display: flex;
+  list-style-type: none;
+  padding: 0 10px;
+  font-size: 18px;
+}
+.listItem {
+  text-decoration: brown;
+  color: brown;
+  padding: 0 10px;
+  font-weight: bold;
+}
+.listItem:hover {
+  text-decoration: underline;
+  color: brown;
+}
+.active {
+  text-decoration: underline;
+  color: brown;
+}
+.listItem i:hover {
+  font-size: 20px;
+}
+.logo {
+  color: brown;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 0 30px;
+  font-size: 20px;
+}
+.logo a {
+  color: #a3825b;
+  text-align: center;
+  text-shadow: 6px 4px 7px rgba(24, 17, 8, 0.25);
+  font-family: Irish grover;
+  -webkit-text-fill-color: #a3825b; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: brown;
+  text-decoration: none;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.198px;
+  /*text-decoration: underline;
+  color: brown;
+  font-size: 28px;*/
+}
+.search {
+  height: 20px;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: white;
+  border: none;
+  box-shadow: 8px 4px 37px 0px rgba(0, 0, 0, 0.25);
+}
+img {
+  max-width: 100%;
+}
+.slider-container {
+  border-radius: 0px;
+  margin-bottom: 20px;
+  height: 90vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.menu {
+  position: absolute;
+  left: 0;
+  z-index: 900;
+  width: 100%;
+  bottom: 0;
+}
+.menu label {
+  cursor: pointer;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  border-radius: 50px;
+  margin: 0 0.2em 1em;
+}
+.menu label:hover,
+.menu label:focus {
+  background: #1c87c9;
+}
+.slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  z-index: 10;
+  padding: 8em 1em 0;
+  background-size: cover;
+  background-position: 50% 50%;
+  transition: left 0s 0.75s;
+}
+[id^="slide"]:checked + .slide {
+  left: 0;
+  z-index: 100;
+  transition: left 0.65s ease-out;
+}
+.slide-1 {
+  background-image: url("https://images.unsplash.com/photo-1534452203293-494d7ddbf7e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2hvcGluZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=900&q=60");
+}
+.slide-2 {
+  background-image: url("https://images.unsplash.com/photo-1483181994834-aba9fd1e251a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c2hvcGluZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=900&q=60");
+}
+.slide-3 {
+  background-image: url("https://images.unsplash.com/photo-1525328437458-0c4d4db7cab4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c2hvcGluZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=900&q=60");
+}
+.container-content {
+  column-count: 3;
+  display: inline-block;
+  width: 1000px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.shopping-item {
+  background-color: whitesmoke;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+  border-radius: 5px;
+  height: 350px;
+  /*
+  border-radius: 5px;
+  height: 350px;
+  width: 180px;
+  margin: 20px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;*/
+  box-shadow: 0px 1px 2px;
+}
+.shopping-item-info h3 {
+  color: brown;
+  padding: 0px;
+  margin: 3px;
+}
+.shopping-item:hover {
+  box-shadow: 0px 2px 3px;
+}
+.shopping-item:hover img {
+  transform: scale(1.01);
+}
+.shopping-item img {
+  cursor: pointer;
+  height: 250px;
+  width: 200px;
+  border-radius: 10px;
+}
+.maindiv {
+  display: flex;
+  justify-content: center;
+}
+.shopping-container {
+  border-radius: 15px;
+  position: relative;
+  background-color: white;
+  align-items: center;
+}
+.shopping-container h2 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+.shopping-container p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.btn {
+  cursor: pointer;
+  padding: 2px 4px;
+  border-radius: 5px;
+  background-color: #e5d3b3;
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn:hover {
+  padding: 1.8px 3px;
+  background-color: lightgrey;
+}
+#newsletter {
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: linear-gradient(to left, #97b599, grey);
+  opacity: 50%;
+  height: 50%;
+  padding: 30px;
+  margin: 20px 0px;
+}
+.newstext h4 {
+  color: white;
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.newstext p {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-weight: 100;
+}
+.newsinput button {
+  background-color: rgb(231, 86, 86);
+  opacity: 60%;
+  padding: 5px;
+  color: rgb(19, 4, 4);
+  border-radius: 10px;
+}
+.newsinput button:hover {
+  padding: 4px;
+}
+.newsinput input {
+  padding: 10px;
+  width: 300px;
+  color: black;
+}
+
+.footerContainer {
+  width: 100%;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+footer {
+  font-family: "Raleway", sans-serif;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #111;
+}
+.socialicons {
+  display: flex;
+  justify-content: center;
+}
+.socialicons a {
+  text-decoration: none;
+  padding: 5px;
+  background-color: white;
+  margin: 5px;
+  border-radius: 50%;
+}
+.socialicons a i {
+  font-size: 1em;
+  color: black;
+  opacity: 0.9;
+}
+.footernav {
+  margin: 30px;
+}
+.footernav ul {
+  display: flex;
+  justify-content: center;
+}
+.footernav ul li a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 1em;
+  opacity: 0.7;
+  padding-bottom: 20px;
+}
+.footerlist:hover {
+  color: pink;
+}
+.footermain p {
+  width: 300px;
+  margin-left: 450px;
+  color: white;
+}

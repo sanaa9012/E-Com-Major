@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;600&family=Raleway:ital,wght@1,100&family=Rampart+One&display=swap");
+
+body {
+  /* font-family: "Raleway", sans-serif;
+   */
+  padding: 0;
+  margin: 0;
+}
+
+#header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+input {
+  font-family: cursive;
+}
+
+.navbar {
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e5d3b3;
+  position: sticky;
+  width: 100%;
+  box-shadow: 0px 5px 15px;
+  top: 0;
+  z-index: 1000;
+}
+
+.NavItem {
+  display: flex;
+  list-style-type: none;
+  padding: 0 10px;
+  font-size: 18px;
+}
+
+.listItem {
+  text-decoration: brown;
+  color: brown;
+  padding: 0 10px;
+  font-weight: bold;
+}
+
+.listItem:hover {
+  text-decoration: underline;
+  color: brown;
+}
+
+.active {
+  text-decoration: underline;
+  color: brown;
+}
+
+.listItem i:hover {
+  font-size: 20px;
+}
+
+.logo {
+  color: brown;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 0 30px;
+  font-size: 20px;
+}
+
+.logo a {
+  color: #a3825b;
+  text-align: center;
+  text-shadow: 6px 4px 7px rgba(24, 17, 8, 0.25);
+  font-family: Irish grover;
+  -webkit-text-fill-color: #a3825b; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: brown;
+  text-decoration: none;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.198px;
+}
+
+.search {
+  padding: 8px;
+  border-radius: 10px;
+  background-color: white;
+  border: none;
+}
+.hero {
+  padding: 10px;
+  background-image: url("https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNvbnRhY3QlMjB1c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60");
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero h1 {
+  width: 300px;
+  margin: auto;
+  padding: 100px;
+  color: brown;
+  font-family: "Yeseva One", cursive;
+  font-size: 40px;
+  font-weight: 100;
+}
+.intouch {
+  margin: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.intouch1 {
+  margin-right: 60px;
+  margin-top: 60px;
+}
+.intouch1 h2 {
+  font-family: "Montserrat", sans-serif;
+  color: brown;
+}
+.intouch1 p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  margin-bottom: 50px;
+}
+.intouch1 a {
+  color: #111;
+  padding: 2px;
+  margin: 10px;
+  text-decoration: none;
+}
+.fa-solid {
+  padding: 5px;
+}
+.intouchform {
+  background-color: white;
+  border-radius: 5px;
+  padding: 50px;
+  height: 350px;
+  width: 400px;
+  box-shadow: 8px 4px 37px 0px rgba(0, 0, 0, 0.25);
+}
+label {
+  color: brown;
+  font-family: "Montserrat", sans-serif;
+}
+
+.Fullname {
+  height: 45px;
+  width: 320px;
+  margin-bottom: 30px;
+  background-color: #fafafa;
+  border: 1px solid lightgrey;
+  padding-left: 14px;
+  border-radius: 2px;
+}
+.E-mail {
+  height: 45px;
+  width: 320px;
+  margin-bottom: 30px;
+  margin-right: 50px;
+  padding-left: 14px;
+  background-color: #fafafa;
+  border: 1px solid lightgrey;
+  border-radius: 2px;
+}
+.message {
+  height: 105px;
+  width: 350px;
+  margin-bottom: 10px;
+  background-color: #fafafa;
+  padding-left: 14px;
+  border: 1px solid lightgrey;
+  border-radius: 2px;
+}
+
+.footerContainer {
+  width: 100%;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+button {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 3px;
+}
+footer {
+  font-family: "Raleway", sans-serif;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #111;
+}
+
+.socialicons {
+  display: flex;
+  justify-content: center;
+}
+
+.socialicons a {
+  text-decoration: none;
+  padding: 5px;
+  background-color: white;
+  margin: 5px;
+  border-radius: 50%;
+}
+
+.socialicons a i {
+  font-size: 1em;
+  color: black;
+  opacity: 0.9;
+}
+
+.footernav {
+  margin: 30px;
+}
+
+.footernav ul {
+  display: flex;
+  justify-content: center;
+}
+
+.footernav ul li a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 1em;
+  opacity: 0.7;
+  padding-bottom: 20px;
+}
+
+.footerlist:hover {
+  color: pink;
+}
+
+.footermain p {
+  width: 300px;
+  margin-left: 450px;
+  color: white;
+}

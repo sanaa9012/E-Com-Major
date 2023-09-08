@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;600&family=Raleway:ital,wght@1,100&family=Rampart+One&display=swap");
+
+body {
+  /* font-family: "Raleway", sans-serif;
+   */
+  background-image: url("https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c2hvcHBpbmclMjBkb29kbGVzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  opacity: 100%;
+}
+
+#header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar {
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e5d3b3;
+  position: sticky;
+  width: 100%;
+  box-shadow: 0px 5px 15px;
+  top: 0;
+  z-index: 1000;
+}
+
+.NavItem {
+  display: flex;
+  list-style-type: none;
+  padding: 0 10px;
+  font-size: 18px;
+}
+
+.listItem {
+  text-decoration: brown;
+  color: brown;
+  padding: 0 10px;
+  font-weight: bold;
+}
+
+.listItem:hover {
+  text-decoration: underline;
+  color: brown;
+}
+
+.active {
+  text-decoration: underline;
+  color: brown;
+}
+
+.listItem i:hover {
+  font-size: 20px;
+}
+
+.logo {
+  color: brown;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 0 30px;
+  font-size: 20px;
+}
+
+.logo a {
+  color: #a3825b;
+  text-align: center;
+  text-shadow: 6px 4px 7px rgba(24, 17, 8, 0.25);
+  font-family: Irish grover;
+  -webkit-text-fill-color: #a3825b; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: brown;
+  text-decoration: none;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.198px;
+}
+
+.search {
+  padding: 8px;
+  border-radius: 10px;
+  background-color: white;
+  border: none;
+}
+
+.main-div {
+  color: brown;
+  height: 400px;
+  margin: auto;
+  width: 30%;
+  font-weight: bold;
+  background-color: white;
+  opacity: 80%;
+  box-shadow: 0px 5px 15px;
+}
+.main-div h1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: "Dancing Script", cursive;
+  font-weight: 300;
+  font-size: 40px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 20px;
+  text-align: center;
+  margin: 5px 10px;
+  border: 2px solid lightcoral;
+  border-radius: 8px;
+  height: 300px;
+  font-family: "Raleway", sans-serif;
+}
+
+.form-name {
+  margin-top: 50px;
+  margin: auto;
+  padding: 15px;
+}
+
+.form-name input {
+  background-color: rgb(238, 214, 182);
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.form-pass {
+  margin: auto;
+  padding: px;
+}
+.form-pass input {
+  background-color: rgb(238, 214, 182);
+  padding: 10px;
+  border-radius: 20px;
+}
+.signup p {
+  font-size: 14px;
+}
+.signup i {
+  text-decoration: underline;
+}
+.signup a {
+  color: brown;
+  font-weight: bold;
+}
+.form-btn {
+  padding: 20px;
+}
+.form-btn button {
+  margin: auto;
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: antiquewhite;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  color: #111;
+  font-weight: bold;
+  cursor: pointer;
+}
+.form-btn button:hover {
+  background-color: lightgray;
+}
+
+.footerContainer {
+  width: 100%;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+footer {
+  font-family: "Raleway", sans-serif;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #111;
+}
+
+.socialicons {
+  display: flex;
+  justify-content: center;
+}
+
+.socialicons a {
+  text-decoration: none;
+  padding: 5px;
+  background-color: white;
+  margin: 5px;
+  border-radius: 50%;
+}
+
+.socialicons a i {
+  font-size: 1em;
+  color: black;
+  opacity: 0.9;
+}
+
+.footernav {
+  margin: 30px;
+}
+
+.footernav ul {
+  display: flex;
+  justify-content: center;
+}
+
+.footernav ul li a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 1em;
+  opacity: 0.7;
+  padding-bottom: 20px;
+}
+
+.footerlist:hover {
+  color: pink;
+}
+
+.footermain p {
+  width: 300px;
+  margin-left: 450px;
+  color: white;
+}

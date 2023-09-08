@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;600&family=Raleway:ital,wght@1,100&family=Rampart+One&display=swap");
+
+body {
+  /*font-family: "Raleway", sans-serif;*/
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(to bottom right, #e5d3b3, #fafcff);
+}
+#header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.navbar {
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e5d3b3;
+  position: sticky;
+  width: 100%;
+  box-shadow: 0px 5px 15px;
+  top: 0;
+  z-index: 1000;
+}
+.NavItem {
+  display: flex;
+  list-style-type: none;
+  padding: 0 10px;
+  font-size: 18px;
+}
+.listItem {
+  text-decoration: brown;
+  color: brown;
+  padding: 0 10px;
+  font-weight: bold;
+}
+.listItem:hover {
+  text-decoration: underline;
+  color: brown;
+}
+.active {
+  text-decoration: underline;
+  color: brown;
+}
+.listItem i:hover {
+  font-size: 20px;
+}
+.logo {
+  color: brown;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 0 30px;
+  font-size: 20px;
+}
+.logo a {
+  color: #a3825b;
+  text-align: center;
+  text-shadow: 6px 4px 7px rgba(24, 17, 8, 0.25);
+  font-family: Irish grover;
+  -webkit-text-fill-color: #a3825b;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: brown;
+  text-decoration: none;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.198px;
+}
+.search {
+  padding: 8px;
+  border-radius: 10px;
+  background-color: white;
+  border: none;
+}
+.cart-box {
+  margin: auto;
+  margin-top: 20px;
+  width: 900px;
+  height: 500px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 25px 40px #e5d3b3;
+}
+.box-header {
+  margin: auto;
+  width: 800px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Heading {
+  font-size: 20px;
+  font-family: "Yeseva One", cursive;
+  font-weight: 400;
+  color: #2f3841;
+}
+.Action {
+  font-size: 14px;
+  font-family: "Yeseva One", cursive;
+  font-weight: 300;
+  color: #e44c4c;
+  cursor: pointer;
+  border-bottom: 1px solid #e44c4c;
+}
+.Cart-Items {
+  margin: auto;
+  width: 90%;
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.image-box {
+  width: 15%;
+  text-align: center;
+}
+.about {
+  height: 100%;
+}
+.title {
+  padding-top: 5px;
+  line-height: 10px;
+  font-size: 23px;
+  font-family: ‘Open Sans’;
+  font-weight: 800;
+  color: #202020;
+}
+.subtitle {
+  line-height: 10px;
+  font-size: 18px;
+  font-family: ‘Open Sans’;
+  font-weight: 600;
+  color: #909090;
+}
+.counter {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-family: ‘Open Sans’;
+  font-weight: 900;
+  color: #202020;
+  cursor: pointer;
+}
+.count {
+  font-size: 20px;
+  font-family: ‘Open Sans’;
+  font-weight: 900;
+  color: #202020;
+}
+.prices {
+  height: 100%;
+  text-align: right;
+}
+.amount {
+  padding-top: 20px;
+  font-size: 26px;
+  font-family: ‘Open Sans’;
+  font-weight: 800;
+  color: #202020;
+}
+.save {
+  padding-top: 5px;
+  font-size: 14px;
+  font-family: ‘Open Sans’;
+  font-weight: 600;
+  color: grey;
+  cursor: pointer;
+}
+.remove {
+  padding-top: 5px;
+  font-size: 14px;
+  font-family: ‘Open Sans’;
+  font-weight: 600;
+  color: #e44c4c;
+  cursor: pointer;
+}
+hr {
+  width: 66%;
+  float: right;
+  margin-right: 5%;
+}
+.checkout {
+  float: right;
+  margin-right: 5%;
+  width: 28%;
+}
+.total {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.Subtotal {
+  font-size: 22px;
+  font-family: ‘Open Sans’;
+  font-weight: 700;
+  color: #202020;
+}
+.items {
+  font-size: 16px;
+  font-family: ‘Open Sans’;
+  font-weight: 500;
+  color: #909090;
+  line-height: 10px;
+}
+.total-amount {
+  font-size: 26px;
+  font-family: ‘Open Sans’;
+  font-weight: 900;
+  color: #202020;
+}
+.button {
+  margin-top: 5px;
+  width: 100%;
+  height: 40px;
+  border: none;
+  background: #e5d3b3;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 25px;
+  font-family: ‘Open Sans’;
+  font-weight: 600;
+  color: brown;
+}
+.button:hover{
+  background-color: #a3825b;
+}
+.footerContainer {
+  width: 100%;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+footer {
+  font-family: "Raleway", sans-serif;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #111;
+}
+.socialicons {
+  display: flex;
+  justify-content: center;
+}
+.socialicons a {
+  text-decoration: none;
+  padding: 5px;
+  background-color: white;
+  margin: 5px;
+  border-radius: 50%;
+}
+.socialicons a i {
+  font-size: 1em;
+  color: black;
+  opacity: 0.9;
+}
+.footernav {
+  margin: 30px;
+}
+.footernav ul {
+  display: flex;
+  justify-content: center;
+}
+.footernav ul li a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 1em;
+  opacity: 0.7;
+  padding-bottom: 20px;
+}
+.footerlist:hover {
+  color: pink;
+}
+.footermain p {
+  width: 300px;
+  margin-left: 450px;
+  color: white;
+}
